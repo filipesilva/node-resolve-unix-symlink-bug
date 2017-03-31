@@ -7,6 +7,6 @@ export default {
   sourceMap: false,
   format: 'iife',
   plugins: [
-    nodeResolve({ jsnext: true, module: true })
+    nodeResolve({ module: true })
   ]
 }
