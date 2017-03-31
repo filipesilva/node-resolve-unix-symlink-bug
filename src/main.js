@@ -1,3 +1,3 @@
-import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
+import { module1Value } from 'module1';
 
-console.log(platformBrowserDynamic);
+console.log(module1Value);
