@@ -7,4 +7,5 @@ install:
   - npm install
 script:
   - npm run symlink
+  - npm run rollup
   - (cd src && npm run rollup)
