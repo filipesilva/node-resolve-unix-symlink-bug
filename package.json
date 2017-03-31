@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "symlink": "node symlink.js"
+    "symlink": "node symlink.js",
+    "rollup": "rollup -c"
   },
   "author": "",
   "license": "ISC",
