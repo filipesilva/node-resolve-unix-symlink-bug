@@ -14,9 +14,6 @@ export default {
     console.warn(warning.message);
   },
   plugins: [
-    nodeResolve({ jsnext: true, module: true }),
-    commonjs({
-      include: 'node_modules/rxjs/**',
-    })
+    nodeResolve({ jsnext: true, module: true })
   ]
 }
