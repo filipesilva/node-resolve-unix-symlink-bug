@@ -1,0 +1,6 @@
+{
+  "name": "inner-project",
+  "scripts": {
+    "rollup": "rollup -c"
+  }
+}
