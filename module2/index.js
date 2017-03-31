@@ -1,1 +1,1 @@
-export const module2Value = 'module2';
+exports.module2Value = 'module2';
