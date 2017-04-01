@@ -4,13 +4,11 @@ import commonjs from 'rollup-plugin-commonjs';
 
 export default {
   entry: 'src/main.js',
-  dest: 'build.js',
+  dest: 'src/build.js',
   sourceMap: false,
   format: 'iife',
   plugins: [
-    nodeResolve({ jsnext: true, module: true }),
-    commonjs({
-      include: 'node_modules/rxjs/**',
-    })
+    nodeResolve({ module: true }),
+    commonjs({ include: 'node_modules/module2/**' })
   ]
 }

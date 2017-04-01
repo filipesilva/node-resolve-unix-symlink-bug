@@ -1,4 +1,4 @@
 node_modules
 src/node_modules
 src/build.js
-build.js
+**/npm-debug.log
